@@ -103,15 +103,6 @@ def export_contacts():
         print(f"An error occurred: {e}")
 
 
-def import_contacts():
-    filename = input("Enter filename to import contacts from: (i.e, contacts.json) ")
-    try:
-        with open(filename, 'r') as f:
-            imported_contacts = json.load(f)
-            contacts.update(imported_contacts)
-        print(f"Contacts imported from {filename} successfully. ")
-    except Exception as e:
-        print(f"An error occurred: {e}")
 
 
 def main():
