@@ -1,4 +1,4 @@
-Welcome to the Contact Management System!
+# Welcome to the Contact Management System!
 
 Copy the code to a python editor. Run the code to begin using the Contact Management System. 
 Select an option to add a contact, edit an existing contact, delete a contact, search for a contact, display a contacts, export contacts to a text file or quit the program. 
